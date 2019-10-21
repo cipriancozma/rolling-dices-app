@@ -1,0 +1,20 @@
+.RollingDice {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.RollingDice button {
+  align-self: center;
+  width: 10em;
+  padding: 1.2em;
+  color: azure;
+  background-color: black;
+  border: 1px;
+  border-radius: 5px;
+}
+
+.RollingDice button:hover {
+  background-color: grey;
+  color: black;
+  cursor: pointer;
+}
